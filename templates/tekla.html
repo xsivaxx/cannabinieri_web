@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+
+<!-- load into index template -->
+{% block child %}
+<div class="mobile_placeholder">
+    <form action="/" method="get">
+        <input type="submit" class="close_box">
+            <svg class="close" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9"></path>
+            </svg>
+        </form>
+    <div class="open">
+        {# Test - add language handling#}
+        <!-- <div class="box">
+        </div> -->
+        <div class="content">
+            <h2>Tekla</h2>
+            <h3>Automatic Biodynamic Gardening for Everyone</h3>
+            <p>Tekla is a garden robot that makes automatic and biodynamic farming accessible for everyone.
+                The low-tech robot gathers informational and relational data in natural environments.
+            </p>
+            <a href="/tekla">MORE</a>
+        </div>
+    </div>
+
+</div>
+{% endblock%}

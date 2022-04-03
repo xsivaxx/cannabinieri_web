@@ -1,0 +1,130 @@
+{% extends "base.html"%}
+
+{% block content %}
+
+<div id="container">
+	<svg 
+		viewBox="0 0 110 125"
+		  xmlns="http://www.w3.org/2000/svg"
+		  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		   <defs>
+
+		     <pattern id="star" viewBox="0,0,100,100" width="100%" height="100%">
+				<image href="/assets/img/kaoscube.webp" viewBox="0 0 100 100" height="100" width="105"/>
+			</pattern>
+
+
+		     <pattern id="tekla" viewBox="0,0,100,100" width="100%" height="100%">
+				<image href="/assets/img/tekla.webp" viewBox="0 0 100 100" height="105" width="150"/>
+			 </pattern>
+		
+
+		     <pattern id="greenhouse" viewBox="0,0,100,100" width="100%" height="100%">
+				<image href="/assets/img/3d_greenhouse.webp" viewBox="0 0 100 100" height="105" width="170"/>
+			 </pattern>
+			
+		     <pattern id="solar_panels" viewBox="0,0,100,100" width="100%" height="100%">
+				<image href="/assets/img/solar.webp" viewBox="0 0 100 100" height="100" width="150"/>
+			 </pattern>
+			
+		     <pattern id="perinaldo" viewBox="0,0,100,100" width="100%" height="100%">
+				<image href="/assets/img/sunrocket.webp" viewBox="0 0 100 100" height="100" width="100"/>
+			 </pattern>
+
+		     <pattern id="bootA" viewBox="0,0,100,100" width="100%" height="100%">
+				<image href="/assets/img/bootA.webp" viewBox="0 0 100 100" height="135" width="100"/>
+			 </pattern>
+
+		     <pattern id="canna" viewBox="0,0,100,100" width="100%" height="100%">
+				<image href="/assets/img/canna.webp" viewBox="0 0 100 100" height="105" width="110"/>
+			 </pattern>
+
+		     <pattern id="waspwork" viewBox="0,0,100,100" width="100%" height="100%">
+				<image href="/assets/img/VR.svg" viewBox="0 0 100 100" height="130" width="110"/>
+			 </pattern>
+
+
+			  <linearGradient id="myGradient">
+				<stop offset="5%"  stop-color="hsl(60,96%,79%)" />
+				<stop offset="10%" stop-color="hsl(40,100%,75%)" />
+				<stop offset="15%" stop-color="hsl(335,74%,80%)" />
+				<stop offset="25%" stop-color="hsl(286,100%,91%)" />
+				<stop offset="35%" stop-color="hsl(243,26%,75%)" />
+				<stop offset="50%" stop-color="hsl(207,47%,82%)" />
+				<stop offset="100%" stop-color="hsl(150,69%,75%)" />
+			</linearGradient>
+			<linearGradient id="upper_edges">
+				<stop offset="5%"  stop-color="hsl(60,96%,79%)" />
+				<stop offset="10%" stop-color="hsl(40,100%,75%)" />
+			</linearGradient>
+			</defs>
+
+
+
+	<g class="group1">
+	<a href="/network">
+	  <path class="node" id="node0" d="M 50, 50 m -10, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0" fill="url(#star)"/> 
+	</a>
+	  <path class="edge" id="edge1" d="M50, 50 m 10,0 L85, 35"/>
+	</g>
+	<g class="group2">
+	<a href="/app">
+	  <path class="node" id="node2" d="M 85, 35 m 0, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0" fill="url(#waspwork)"/> 
+	</a>
+	  <path class="edge" id="edge2" d="M 95, 35 m 0,10 L95, 60"/>
+	</g>
+	
+	<g class="group3">
+	<a href="/robot">
+	<path class="node" id="node3" d="M 85, 70 m 0, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0" fill="url(#tekla)"/>
+	</a>
+	  <path class="edge" id="edge3" d="M 95, 80 m 0,10 L95, 80"/>
+	</g>
+	
+	<g class="group4">
+	<a href="/remote">
+	  <path class="node" id="node4" d="M 95, 100 m -10, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0" fill="url(#greenhouse)"/> 
+	</a>
+	  <path class="edge" id="edge4" d="M95, 100 m -10,0 L60, 105"/>
+	  <path class="edge" id="edge5" d="M96.15, 100 m -10,-5 L55, 58.75" />
+	</g>
+	
+	<g class="group5">
+	<a href="/miner">
+	  <path class="node" id="node5" d="M 50, 105 m -10, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0" fill="url(#solar_panels"/> 
+	</a>
+	  <path class="edge" id="edge6" d="M50, 105 m -10, 0 L25, 100" />
+	  <path class="edge" id="edge7" d="M50, 105 m 0, -10 L50, 60" />
+	</g>
+	
+	<g class="group6">
+	<a href="/energy">
+	<path class="node" id="node6" d="M 15, 100 m -10, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0" fill="url(#perinaldo)"/>
+	</a>
+	<path class="edge" id="edge8" d="M15, 100 m 0, -10 L15, 65" />
+	<path class="edge" id="edge9" d="M15, 100 m 0, -10 L77.35, 70" />
+	</g>
+
+	<g class="group7">
+	<a href="/greenhome">
+	<path class="node" id="node7" d="M 15, 65 m -10, -10 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0" fill="url(#bootA"/>
+	</a>
+	<path class="edge" id="edge10" d="M15, 55 m 10, 0 L40, 50" />
+	<path class="edge" id="edge11" d="M15, 55 m 0, -10 L40, 15" />
+	</g>
+	<g class="group8">
+	<a href="/cannabinieri">
+	<path class="node" id="node8" d="M 50, 15 m -10, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0" fill="url(#canna")/>
+	</a>
+	<path class="edge" id="edge12" d="M 50, 15 m 0, 10 L50, 40"/>
+	<path class="edge" id="edge13" d="M 50, 15 m 10, 0 L86, 30"/>
+	</g>
+	</svg>
+	<div id="banner">
+	</div>
+	<p id="text"> Put €20 in a node & <br>get a free Cannabinieri Oil </p>
+	{%block child%} {%endblock%}
+</div>
+
+{% endblock %}

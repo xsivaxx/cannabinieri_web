@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Contact{%endblock%}
+{% block content %}
+<div class="contact_container">
+	<form action="/contact/mail" method="POST">
+		<label for="input_mail">Enter your email</label>
+			<input id="input_mail"type="email" name="mail">
+			<label for="input_subject">subject</label>
+			<input id="input_subject" type="text" name="subject">
+			<label for="input_message">your comment</label>
+			<textarea id="input_message" type="text" name="comment"></textarea>
+			<input id="mail_submit"type="submit">
+	</form>
+</div>
+{% endblock %}

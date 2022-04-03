@@ -1,0 +1,315 @@
+svg {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	z-index: 100;
+	top: 10vh;
+}
+
+path {
+	stroke: #8693AB;
+	stroke-width: 0.3%;
+}
+
+#node1 {
+	transform: translate(-0.7%, -4%);
+}
+
+#edge9 {
+	transform: translate(8%, 4%);
+}
+
+#edge12 {
+	
+  stroke-dasharray: 100;
+  animation: draw_multi 3s forwards !important;
+  animation-delay: 0s;
+}
+
+
+#edge13 {
+  stroke-dasharray: 100;
+  animation: draw_multix 3s forwards;
+  animation-delay: 0s;
+}
+
+.group1 .node , .group1 .edge{
+  stroke-dasharray: 100;
+  animation: draw 3s forwards;
+  animation-delay: 0s;
+}
+
+.group2 .node, .group2 .edge{
+  stroke-dasharray: 100;
+  animation: draw_pink 3s forwards;
+  animation-delay: 0s;
+}
+
+
+.group3 .node , .group3 .edge{
+  stroke-dasharray: 100;
+  animation: draw_green 3s forwards;
+  animation-delay: 0s;
+}
+
+
+.group4 .node , .group4 .edge{
+  stroke-dasharray: 100;
+  animation: draw_purple 3s forwards;
+  animation-delay: 0s;
+}
+
+
+.group5 .node , .group5 .edge{
+  stroke-dasharray: 100;
+  animation: draw_yellow 3s forwards;
+  animation-delay: 0s;
+}
+
+
+.group6 .node , .group6 .edge{
+  stroke-dasharray: 100;
+  animation: draw_peach 3s forwards;
+  animation-delay: 0s;
+}
+
+
+.group7 .node , .group7 .edge{
+  stroke-dasharray: 100;
+  animation: draw_red 3s forwards;
+  animation-delay: 0s;
+}
+
+
+.group8 .node {
+  stroke-dasharray: 100;
+  animation: draw_rainbow 3s forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+
+.node {
+	cursor: pointer;
+}
+
+
+
+
+@keyframes draw {
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke: hsl(207,47%,82%);
+	}
+}
+
+
+@keyframes draw_pink {
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke: hsl(286,100%,91%);
+	}
+}
+
+
+@keyframes draw_green{
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke:  hsl(150,69%,75%);
+	}
+}
+
+
+@keyframes draw_purple {
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke:  hsl(243,26%,75%);
+	}
+}
+
+
+@keyframes draw_yellow{
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke:  hsl(60,96%,79%);
+	}
+}
+
+
+@keyframes draw_peach {
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke:  hsl(40,100%,75%);
+	}
+}
+
+
+@keyframes draw_red {
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke:  hsl(335,74%,80%);
+	}
+}
+
+
+@keyframes draw_rainbow {
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke: url(#myGradient);
+	}
+}
+
+
+@keyframes draw_multi {
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	50% {
+		stroke:  hsl(243,26%,75%);
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke: hsl(207,47%,82%);
+	}
+}
+
+
+@keyframes draw_multix {
+	from {
+		stroke-dashoffset: 100;
+
+		stroke: #8693AB;
+	}
+	50% {
+		stroke: hsl(150,69%,75%);
+	}
+	to {
+		stroke-dashoffset: 0;
+		stroke: hsl(207,47%,82%);
+	}
+}
+
+#banner {
+
+	position: fixed;
+	height: 100vh;
+	width: 50vw;
+	top: 0;
+	background: black;
+	opacity: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#text {
+		width: 90vw;
+		text-align: left;
+		font-size: 2.5vh !important;
+		top: 20vh;
+		line-height: 5vh !important;
+		z-index: 200;
+		background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(1,1,1,1));
+		margin: 0 3vw;
+		padding: 0 2vw;
+		color: hsl(150,69%,75%);
+		position: absolute;
+		left: 3vw;
+		text-transform: uppercase;
+		letter-spacing: 0.08vw;
+}
+
+@media ( min-width: 1024px ) {
+	svg {
+		left: 5vw;
+		top: 0;
+	}
+
+#text 
+{
+	max-width: 20vw;
+	height: 50vh;
+	color: hsl(150,69%,75%);
+	position: absolute;
+	top: 25vh;
+	font-size: 5vh;
+	z-index: 400;
+	margin: 0;
+	left: 3vw;
+	line-height: 9vh;
+	text-transform: uppercase;
+	letter-spacing: 0.08vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+
+}
+
+@media ( min-width: 768px) and ( max-width: 1023px) {
+	svg {
+		top: 8vh;
+	}
+
+	#text {
+		font-size: 2.5vh !important;
+		top: 18vh;
+		line-height: 5vh !important;
+		z-index: 200;
+		background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(1,1,1,1));
+		margin: 0 3vw;
+		padding: 0 2vw;
+		color: hsl(150,69%,75%);
+		position: absolute;
+		left: 3vw;
+		text-transform: uppercase;
+		letter-spacing: 0.08vw;
+	}
+
+	#text br {
+		display: none;
+
+	}
+}

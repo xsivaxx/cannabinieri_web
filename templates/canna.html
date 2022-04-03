@@ -1,0 +1,30 @@
+{% extends "index.html" %}
+
+<!-- load into index template -->
+{% block child %}
+<div class="mobile_placeholder">
+    <form action="/" method="get">
+        <input type="submit" class="close_box">
+            <svg class="close" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9"></path>
+            </svg>
+        </form>
+    <div class="open">
+        {# Test Content - add language handling json#}
+        <div class="box">
+        </div>
+        <div class="content">
+            <h2 id="small">Cannabinieri</h2>
+            <h3>Biodynamic Transparent CBD experiments </h3>
+            <p>The most impressive network on out planet can be found underground. 
+               All organisms on earth are related, they are friends and followers. 
+               All of them have favorite environments that get them into a good mood. 
+               They show it with flowers or sweet fruit.
+               RootWork aims to become a network of optimal conditions for all organisms and serves as a database for Tekla.
+            </p>
+            <a href="/hemp">MORE</a>
+        </div>
+    </div>
+
+</div>
+{% endblock%}

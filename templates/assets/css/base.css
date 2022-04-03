@@ -1,0 +1,28 @@
+/* add canvas with network to body */
+@font-face {
+    font-family: 'RobotoCondensed';
+        src: url('/assets/fonts/RobotoCondensed-Bold.ttf ') format('truetype');
+        font-style: normal; 
+        font-weight: 400;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+        src: url('/assets/fonts/IBMPlexMono-Regular.ttf') format('truetype');
+}
+html {
+    height: 100%;
+}
+body { 
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'RobotoCondensed';
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{title}}{%endblock%}
+
+{% block content %}
+<div id="fund_container">
+		<h2>{{ title}}</h2>
+		<p> {{ subtitle }} </p>
+		<div class="node_container">
+			{%if title == "fund"%}
+			<img src="/assets/img/placeholder.jpg">
+			{%endif%}
+			<h6>waspwork</h6>
+			<p>Developement of an <a href="/waspwork">AR App</a> detecting relationships between plants and plants and the environment. </p>
+		</div>
+		<div class="node_container">
+			{%if title == "fund"%}
+			<img src="/assets/img/placeholder.jpg">
+			{%endif%}
+			<h6>cyberpreneur</h6>
+			<p>Developement of an <a href="/cyberpreneur">Remote Farming WebApp</a> enabling monitoring and remote control of a garden.</p>
+		</div>
+
+		<div class="node_container">
+			{%if title == "fund"%}
+			<img src="/assets/img/placeholder.jpg">
+			{%endif%}
+			<h6>tekla</h6>
+			<p>Developement of an <a href="/tekla">Gardening Hexapod</a> automating gardening based on biodynamic design principles.</p>
+		</div>
+
+		<div class="node_container">
+			{%if title == "fund"%}
+			<img src="/assets/img/placeholder.jpg">
+			{%endif%}
+			<h6>solar waste miner</h6>
+			<p>Developement of a <a href="/info/solar-miner">Fundrasing Blockchain Network </a> powered by exess solar energy.</p>
+		</div>
+
+		<div class="node_container">
+			{%if title == "fund"%}
+			<img src="/assets/img/placeholder.jpg">
+			{%endif%}
+			<h6>kaos cube</h6>
+			<p>Developement of a <a href="/cube">Decentralized Internet Sharing Network</a> powered by exess solar energy.</p>
+		</div>
+
+		<div class="node_container">
+			{%if title == "fund"%}
+			<img src="/assets/img/placeholder.jpg">
+			{%endif%}
+			<h6>green machine</h6>
+			<p>Design of <a href="/greenmachine">Fully Self-Sustainable houses</a>adapted to a given environment, making use of the concepts of all other projects.</p>
+		</div>
+		<div class="node_container">
+			{%if title == "fund"%}
+			<img src="/assets/img/placeholder.jpg">
+			{%endif%}
+			<h6></h6>
+			<p>Design of <a href="/cube">Fully Self-Sustainable houses</a>adapted to a given environment, making use of the concepts of all other projects.</p>
+		</div>
+		<div class="node_container">
+			{%if title == "fund"%}
+			<img src="/assets/img/placeholder.jpg">
+			{%endif%}
+			<h6></h6>
+			<p>Design of <a href="/info/energy">Renewable energy solutions adapted to the environment </a>that enable confortable living off the grid.</p>
+		</div>
+</div>
+{% endblock %}

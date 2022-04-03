@@ -1,0 +1,101 @@
+{
+    "lang_code": {
+        "en": "en",
+        "es": "es",
+        "fr": "fr",
+        "de": "de",
+        "it": "it",
+        "ja": "ja",
+        "ru": "ru"
+    },
+
+    "lang_full": {
+        "en": "English",
+        "es": "Español",
+        "fr": "Français",
+        "de": "Deutsch",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ru": "Русский"
+    },
+
+    "meta_description": {
+        "en": "Cannabinieri-Robot grown CBD : Cannabinieri developes robots that study and grow plants, focusing on CBD ",
+        "es": "Cannabinieri-CBD cultivado por robots : Los Cannabinieri desarrollar robots que estudien y cultiven plantas, centrándose en el CBD",
+        "fr": "Cannabinieri-CBD cultivé par des robots: Les Cannabinieri développent des robots qui étudient et cultivent le CBD",
+        "de": "Cannabinieri-CBD abgebaut von Robotern: Cannabinieri entwickelt Roboter, die Pflanzen erforschen und anbauen, mit Schwerpunkt auf CBD ",
+        "it": "Cannabinieri-CBD coltivato da robot: I cannabinieri sviluppano robot per studiare e coltivare le piante, concentrandosi sul CBD",
+        "ja": "Cannabinieri-ロボットが育てたCBD: Cannabinieriは、CBDに着目し、植物を研究・栽培するロボットを開発しました。",
+        "ru": "Cannabinieri-Выращивание CBD с помощью роботов: Cannabinieri разрабатывает роботов, которые изучают и выращивают растения, уделяя особое внимание КБР "
+    },
+
+    "nav_item1": {
+        "en": "Hemp",
+        "es": "Cáñamo",
+        "fr": "Chanvre",
+        "de": "Hanf",
+        "it": "Canapa",
+        "ja": "ヘンプ",
+        "ru": "конопля"
+    },
+
+    "nav_item2": {
+        "en": "Spider",
+        "fr": "Araignée",
+        "de": "Spinne",
+        "it": "Ragno",
+        "ja": "スパイダー",
+        "ru": "паук"
+    },
+
+    "nav_item3": {
+        "en": "Hemp",
+        "es": "Cáñamo",
+        "fr": "Chanvre",
+        "de": "Hanf",
+        "it": "Canapa",
+        "ja": "ヘンプ",
+        "ru": "конопля"
+    },
+
+    "nav_item4": {
+        "en": "Hemp",
+        "es": "Cáñamo",
+        "fr": "Chanvre",
+        "de": "Hanf",
+        "it": "Canapa",
+        "ja": "ヘンプ",
+        "ru": "конопля"
+    },
+
+    "nav_item5": {
+        "en": "Hemp",
+        "es": "Cáñamo",
+        "fr": "Chanvre",
+        "de": "Hanf",
+        "it": "Canapa",
+        "ja": "ヘンプ",
+        "ru": "конопля"
+    },
+
+    "footer_item1": {
+        "en": "Contact Us",
+        "es": "Contacte",
+        "fr": "contactez-nous",
+        "de": "Kontakt",
+        "it": "contattaci",
+        "ja": "連絡先",
+        "ru": "связаться с"
+    },
+
+    "footer_item2": {
+        "en": "Privacy Policy",
+        "es": "política de privacidad",
+        "fr": "protection des données",
+        "de": "Datenschutz",
+        "it": "informativa sulla privacy",
+        "ja": "プライバシーポリシー",
+        "ru": "Защита данных"
+    }
+ 
+}

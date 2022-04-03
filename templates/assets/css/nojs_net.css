@@ -1,0 +1,264 @@
+#mobile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 85vh;
+}
+
+svg {
+    width: 95%;
+    height: auto;
+    position: absolute;
+    align-self: center;
+}
+
+
+.edges {
+    stroke: #000;
+    stroke-width: 1%;
+}
+
+.nodes {
+    stroke: #8693AB;
+    cursor: pointer;
+}
+
+.nodes:active, .nodes:hover {
+   
+    animation: svg_pulse 2s ease-in-out forwards; 
+}
+
+
+
+
+ @keyframes svg_pulse {
+    0% {
+       transform: scale(1);
+       stroke: #8693AB;
+       fill-opacity: 100%;
+    }
+
+    20% {
+        transform: scale(1.01);
+    }
+
+    80% {
+        transform: scale(1);
+        stroke: #BDD4E7;
+    }
+
+    80% {
+        transform: scale(1.01);
+    }
+
+    100% {
+        transform: scale(1);
+        stroke: #8693AB;
+        fill-opacity: 100%;
+    }
+}
+
+
+
+.group_1:hover > #edge_1 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_1:active > #edge_1 {
+    animation: glowing 2s ease-in forwards;
+}
+
+
+.group_1:hover > #edge_2 {
+    animation: glowing 2s ease-in forwards;
+  
+}
+
+.group_1:active > #edge_2 {
+    animation: glowing 2s ease-in forwards;
+  
+}
+
+.group_1:hover > #edge_11 {
+    animation: glowing 2s ease-in forwards;
+  
+}
+
+.group_1:active > #edge_11 {
+    animation: glowing 2s ease-in forwards;
+  
+}
+
+
+.group_2:hover > #edge_3 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_2:active > #edge_3 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_2:hover > #edge_4 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_2:active > #edge_4 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_2:hover > #edge_5 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_2:active > #edge_5 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_2:hover > #edge_6 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_2:active > #edge_6 {
+    animation: glowing 2s ease-in forwards;
+}
+
+
+
+.group_3:hover > #edge_7 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_3:active > #edge_7 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_3:hover > #edge_8 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_3:active > #edge_8 {
+    animation: glowing 2s ease-in forwards;
+}
+
+
+.group_3:hover > #edge_10 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_3:active > #edge_10 {
+    animation: glowing 2s ease-in forwards;
+}
+
+
+
+
+.group_4:hover > #edge_9 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_4:active > #edge_9 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_5:hover > #edge_10 {
+    animation: glowing 2s ease-in forwards;
+}
+
+.group_5:active > #edge_10 {
+    animation: glowing 2s ease-in forwards;
+}
+
+
+
+@keyframes glowing {
+    0% {
+    stroke: #8693AB;
+   
+    }
+    50% {
+      stroke: #BDD4E7;
+      
+    }
+    100% {
+        stroke: #8693AB;
+    }
+  }
+
+
+
+@media (min-width: 0 ) {
+    #tablet {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    svg {
+        max-height: 70vh;
+        width: 100vw;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) {
+    svg {
+        max-height: 70vh;
+        width: 100vw;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    svg {
+        max-height: 75vh;
+        width: 55vw;
+        margin-left: 7.5vw;
+    }
+
+
+
+}
+
+
+@media (min-height: 1070px) {
+    svg {
+        max-height: 64vh;
+    }
+}
+
+@media (min-height: 840px) and (max-width: 768px)  {
+    svg {
+        max-height: 90vh;
+        top: 20vh;
+    }
+}
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+

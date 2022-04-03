@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Waspwork{%endblock%}
+
+{% block content %}
+<div class ="container">
+  <div class ="content_container" id="first">
+      <img src="/assets/img/sample-permapp-screen.webp">
+      <h1>WaspWork</h1>
+      <p id="up">Wir entwickeln gerade den Prototyp des Low-Tech Hexapods, der die Gartenarbeit übernehmen und Daten über unser Ökosystem sammeln soll.
+          Die Spinne hat noch einen weiten Weg vor sich.
+          Diese Daten wird sie in die PermApp eintragen, eine App die zu einem Netzwerk von Informationen zwischen den Wechselwirkungen in unserem Ökosystem ausgebaut wird.
+          Die Kommunikation zwischen den Spinnen funktioniert abgeschnitten vom World wide web, über sein eigenes verschlüsseltes Mesh.
+      </p>
+  </div>
+  <div class ="content_container" id="spiderpi" >
+      <img src="/assets/img/pattern.webp ">
+      <h1>Progress</h1>
+      <p id="littleup">SpiderPi ist Raspberry-Pi betriebener Roboter. Er führt Programme in Python aus und hat eine eingebaute Kamera, über die er in der Lage ist, einfache Object Detection auszuführen.
+          Derzeit sind wir damit beschäftigt, mit Hilfe von Photogrammetrie ein 3d Bild zu erstellen, in dem der Roboter sich bewegen und orientieren kann.
+          Unsere Vision ist es, einen bezahlbaren Gartenroboter zu entwickeln. Während der die Gartenarbeit erledigt, sammelt der Roboter Daten über alle für Pflanzen wichtigen Faktoren.
+          Es liegt noch viel Arbeit vor uns. Dafür brauchen wir deine Unterstützung.
+       </p>
+  </div>
+  <div class ="content_container" id="permapp">
+      <img id="mysvg" src="/assets/img/VR.svg">
+      <h1 id="down">UI</h1>
+      <p id="littleup">In der PermApp werden die Informationen der Wechselwirkungen ökologischer Entitäten gespeichert. Und visualisiert. Durch Rating kommen die besten Systeme an die Oberfläche. Am Ende werden die besten Netze miteinander kombiniert. </p>
+      <a href="https://code.basabuuka.org/alpcentaur/permapp">Code</a>
+  </div>
+</div>
+{% endblock %}
