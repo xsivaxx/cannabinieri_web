@@ -354,19 +354,13 @@ pub async fn robot( req: HttpRequest ) -> Result<HttpResponse, Error> {
 }
 
 pub async fn app( req: HttpRequest ) -> Result<HttpResponse, Error> {
-    // if response Ok return HttpResponseBuilder
     HttpResponse::Ok()
-    // set response content type html
     .content_type("text/html")
-    // set response body to template context
     .body(
-        // render template context
         template::TplApp {
-            // lang to value of Accept-Language header
             lang : &template::get_lang(&req),
         }
         
-        // render template context into String
         .render()
         .map_err( |e| {
             eprintln!("error_tplrender : {}", e );

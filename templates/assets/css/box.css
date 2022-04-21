@@ -18,10 +18,10 @@
   grid-template-rows: .35fr .25fr 1fr .45fr;
   max-width: inherit;
   max-height: inherit;
-  background:  rgba(255,0,255,0.5);
+  background:  rgba(255,0,255,0.85);
   position: relative;
   max-width: 60vw;
-  max-height: 51vh;
+  /* max-height: 51vh; */
   top: 20vh;
   right: -10vw;
 }
@@ -47,17 +47,16 @@
   margin: 0;
   /* line-height: 5vh; */
   text-align: center;
-  font-size: 1.5vh !important;
+  font-size: 1.35vh !important;
   line-height: 2.5vh !important;
 }
 
 .content p {
-  /* font-size: 1.5vh; */
   text-align: center;
-  /* line-height: 3.5vh; */
-  margin: 2vh 0vw;
+  margin: 2vh 4vw;
   font-family: 'IBMPlexMono', sans-serif;
   font-size: 1.05vh !important;
+  font-weight: bold;
   line-height: 2.5vh !important;
 }
 
@@ -69,10 +68,9 @@
   height: 4vh;
   width: 10vw;
   width: 30vw;
-  border: .5vw solid #000;
   justify-self: center;
   align-self: center;
-  margin-top: 2vh;
+  margin: 0 0 2vh 0 !important;
   color: #000;
   font-size: 1.95vh;
   cursor: pointer;
@@ -85,7 +83,6 @@
   background: linear-gradient(to right, rgba(255,255,255,0), rgba(1,1,1,1));
   background-size: 200% 100%;
   background-position: left bottom;
-  border: .5vw solid #8693AB;
   color: #90e7bc;
 }
 
@@ -217,10 +214,8 @@ input:active ~ .close  {
 
   .content a {
     font-size: 1.45vh !important;
-    margin: 0 !important;
     width: 15vw !important;
     height: 3.5vh !important;
-    border: .25vw solid #000;
   }
 
 }
@@ -258,14 +253,14 @@ input:active ~ .close  {
 	.content {
 		position: relative;
 		max-width: 60vw;
-		max-height: 55vh;
+		/* max-height: 55vh; */
 		top: 5vh;
 	}
 
 	.content p {
-		font-size: 1.75vh !important;
+		font-size: 2vh !important;
 		margin: 2vh 2vw;
-		line-height: 2.5vh !important;
+		line-height: 3vh !important;
 	}
 
 	.close {
@@ -328,8 +323,8 @@ input:active ~ .close  {
   }
 
   .content p {
-    font-size: 1.95vh;
-    line-height: 3vh;
+    font-size: 2vh;
+    line-height: 4vh;
 	font-weight: bold;
   }
 

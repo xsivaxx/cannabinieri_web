@@ -73,6 +73,8 @@
     text-transform: uppercase;
     transition: .3s;
 	font-family: 'IBMPlexMono', sans-serif;    
+	position: relative;
+	z-index: 200;
 }
 
 
@@ -138,6 +140,12 @@
     
 }
 
+.dropdown {
+
+	z-index: 201;
+
+}
+
 .dropdown:hover ~ .top{
 	color: #d2c0e7 !important;
 	transition: 1s ease; 
@@ -178,7 +186,7 @@
 	right: 0;
 	top: unset;
 	left: unset;
-	height: 7.5vh;
+	height: 5vh;
 	min-width: 20vw;
 }
 

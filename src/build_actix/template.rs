@@ -183,7 +183,7 @@ pub struct TplRobot<'a> {
 }
 
 #[derive(Template)]
-#[template(path="rootwork.html")]
+#[template(path="waspwork_box.html")]
 pub struct TplApp<'a> {
     pub lang: &'a str,
 }

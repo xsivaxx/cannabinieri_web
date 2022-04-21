@@ -1,6 +1,7 @@
 .container {
     width: 100vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBMPlexMono', sans-serif;
+	padding-top: 15vh;
 }
 
 img {
@@ -128,6 +129,10 @@ img {
 
 #down {
     margin-bottom: 0;
+}
+
+#small {
+	font-size: 2.95vh !important;
 }
 
 @media (min-width: 700px) {
