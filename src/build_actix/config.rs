@@ -3,6 +3,9 @@ use serde_json::Value;
 
 pub const LOC_FILE: &str = "./lang.json";
 
+
+// ADD ERROR HANDLING FOR WHEN FILE CAN NOT BE ACCESSED
+// IMPLEMENT LANGUAGE HANDLING FUNCTIONALITY
 // functions executed at runtime
 lazy_static! {
     pub static ref LOC : Value = init_lang();

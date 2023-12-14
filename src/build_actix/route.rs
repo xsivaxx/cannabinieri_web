@@ -15,7 +15,6 @@ use askama::Template;
 use serde::{Deserialize, Serialize};
 use std::fs::File;
 use std::io;
-use std::io::Write;
 
 #[derive(Deserialize, Serialize)]
 pub struct Data {
